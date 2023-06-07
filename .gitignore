@@ -1,0 +1,9 @@
+.vscode
+*.o
+*.a
+a.out*
+printfTester
+ft_printf_tester
+compile_commands.json
+.cache
+.DS_Store
