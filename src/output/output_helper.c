@@ -6,14 +6,12 @@
 /*   By: smatsuo <smatsuo@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 13:50:57 by smatsuo           #+#    #+#             */
-/*   Updated: 2023/06/07 23:28:04 by smatsuo          ###   ########.fr       */
+/*   Updated: 2023/06/08 02:46:04 by smatsuo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "internal.h"
 
-// 文字列の場合は、文字列の長さ
-// 整数の場合は、符号やプレフィックスを含めた整数の長さ
 int	content_size(t_output *output)
 {
 	if (output->conv_type == C_STR)

@@ -6,7 +6,7 @@
 /*   By: smatsuo <smatsuo@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 16:14:12 by smatsuo           #+#    #+#             */
-/*   Updated: 2023/06/07 23:30:01 by smatsuo          ###   ########.fr       */
+/*   Updated: 2023/06/08 02:23:37 by smatsuo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void	parse_ull_to_buf(t_output *output, unsigned long long value, int base)
 
 char	char_to_num(unsigned long long n, int is_upper)
 {
-	static char	digits[16] = "0123456789abcdef";
+	const char	*digits = "0123456789abcdef";
 	char		res;
 
 	res = digits[n];
